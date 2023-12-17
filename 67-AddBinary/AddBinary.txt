@@ -1,0 +1,28 @@
+class Solution :
+    def addBinary(self, a:str, b:str)-> str:
+        result = ""
+        carry = 0
+        a,b=a[::-1],b[::-1]
+        for i in range(max(len(a),len(b))) :
+            if i < len(a) :
+                #typecasting character to int
+                From_A = int(a[i])
+            else :
+                #indexout of bound for a
+                From_A = 0
+            if i < len(b) :
+                #typecasting character to int
+                From_B = int(b[i])
+            else :
+                #indexout of bound for b
+                From_B = 0
+            total = From_A+From_B+carry
+            #mode by 2 because even/2 will add 0 and odd/2 will add 1 also typecasting it to str
+            character = str(total%2)
+            result = character + result
+            #dividing by 2 because if 0/2 carry will be 0 1/2 carry will be zero 3/1 carry will be 1
+            carry = total // 2
+        #adding carry in first only if it is 1
+        if carry:
+            result = "1"+result
+        return result
