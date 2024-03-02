@@ -18,4 +18,4 @@ class Solution :
 
 s = Solution()
 paren = input("enter parentheses")
-print(s.isValid(paren))
+print(s.isValid(paren)) 

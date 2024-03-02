@@ -7,7 +7,9 @@ class Solution:
         prefix = strs[0]
         for i in range(1,len(strs)) :
             while(strs[i].find(prefix)!=0):
+                print(strs[i],i)
                 prefix = prefix[0:len(prefix)-1]
+                print(prefix)
         return prefix;
 
 s = Solution()

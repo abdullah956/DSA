@@ -17,4 +17,4 @@ class Solution:
             if target < letters[mid]:
                 high = mid-1
                 
-        return letters[low]
+        return letters[low] 

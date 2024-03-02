@@ -1,5 +1,6 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
+        print("word is ddfkak")
         def check(i, j):
             left = i
             right = j - 1
@@ -35,7 +36,7 @@ print(s.longestPalindrome("ddfkak"))
                     0            1              2              3              4            5         
                    #d            d              f              k              a            k          
                                                                start                         
-                                                                                          length   
+                                                                                           length   
   
 """
                
