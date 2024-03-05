@@ -14,7 +14,7 @@ class Solution:
             l,r=l+1,r-1
         return True
 s=Solution()
-print(s.validPalindrome("aabca"))
-a="aabca"
-print (a[2:4])
-print(a[1:3])
+print(s.validPalindrome("abca"))
+#a="abca"
+# print (a[2:4])
+# print(a[1:3])
