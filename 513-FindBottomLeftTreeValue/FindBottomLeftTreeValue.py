@@ -17,3 +17,11 @@ class Solution:
             if node.left :
                 q.append(node.left)
         return node.val
+    
+"""
+                                       1
+                                    /    \
+                                   2      3
+                                  /  \   /  \
+                                 4    5 6   7 
+"""

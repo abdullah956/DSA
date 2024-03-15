@@ -7,6 +7,8 @@
 from typing import List
 class Solution:
     def findMode(self, root) -> List[int]:
+        count={}
+        result=[]
         if not root.left and not root.right :
             return [root.val]
         def checkDups(root):
@@ -20,9 +22,7 @@ class Solution:
                 checkDups(root.left)
             if root.right :
                 checkDups(root.right)
-        count={}
         checkDups(root)
-        result=[]
         maximum_count = max(count.values())
         for key,value in count.items() :
             if value == maximum_count :
