@@ -8,3 +8,4 @@ class Solution:
             else:
                 s = s + '0'
         return int(s,2) #type casting to int with base 2
+print(bin(5))

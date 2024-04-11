@@ -10,7 +10,17 @@ class Solution:
             else :
                 count-=1
         return res
-
+"""
+[3,2,3]
+n 3 
+res 3
+count 1
+n 2 
+res 3
+count 0
+n 3 
+res 3 
+"""
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         Map = dict()

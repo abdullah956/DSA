@@ -16,3 +16,16 @@ class Solution:
                 num //=10
             num = temp
         return num
+    
+    """
+    38
+
+    temp = 11
+    num = 11
+
+
+    11
+    temp = 2
+    num = 2
+    
+    """

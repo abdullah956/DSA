@@ -15,3 +15,8 @@ class Solution :
             output += digit
             n = n // 10
         return output
+    """
+    visit = {}
+    using set so that we do not go in infinte loop
+    
+    """

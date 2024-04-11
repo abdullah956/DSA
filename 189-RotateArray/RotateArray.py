@@ -14,6 +14,16 @@ class Solution:
 s = Solution ()
 nums = [1,2,3,4,5,6,7]
 k = 3
-s.rotate(nums,k)
+print(s.rotate(nums,k))
 print(nums)
+
+"""
+[1,2,3,4,5,6,7]
+0-len
+[7,6,5,4,3,2,1]
+0-k reverse 
+[5,6,7,4,3,2,1]
+k-len reverse
+[5,6,7,1,2,3,4]
+"""
 

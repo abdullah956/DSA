@@ -8,3 +8,10 @@ class Solution :
             mapTS[b] = a
 
         return True
+    
+"""
+egg
+add
+MAp1 {e:a  g:d  }
+MAp2 {a:e  d:g  }
+"""

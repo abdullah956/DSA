@@ -14,3 +14,12 @@ class Mystack :
         return self.q[-1]
     def empty(self) :
         return len(self.q)==0
+    
+
+    """
+    1 2 3
+after pop
+ 3 2 1
+ return 3
+
+    """

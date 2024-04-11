@@ -15,3 +15,7 @@ class Solution:
             root.right = createTreeNode(mid+1,right)
             return root
         return createTreeNode(0,len(nums)-1)
+    """
+    [1,2,3,4,5,6]
+    3
+    """

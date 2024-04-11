@@ -21,4 +21,7 @@ class Solution :
             index = index_Map[i]
             output.append(result[index])
         return output
+    
+s = Solution()
+print(s.nextGreaterElement([4,1,2],[1,3,4,2]))
         

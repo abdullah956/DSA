@@ -11,4 +11,5 @@ class Solution:
             x=3**i
             i+=1
         return False
+    
     #return n>0 and (3**19)%n==0

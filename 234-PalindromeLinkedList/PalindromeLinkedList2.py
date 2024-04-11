@@ -15,6 +15,16 @@ class Solution :
             slow.next = prev
             prev = slow
             slow = temp
+        """
+        1-->2-->3<--2<--1
+        l               r
+        h               p
+
+                3<---2<---1
+                               s
+                          p    t
+
+        """
         
         #check palindrome
         left,right=head,prev 

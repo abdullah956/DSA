@@ -14,3 +14,10 @@ class MyQueue  :
         return self.stack1[-1]
     def empty(self) -> bool :
         return not self.stack1
+    
+
+"""
+stack1 = [2,1]
+stack2 = []
+
+"""

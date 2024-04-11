@@ -3,16 +3,17 @@ class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
         for n in nums :
             i = abs(n)-1
-            print(i)
+            print("after -1 ",i)
             nums[i] = -1*abs(nums[i])
-            print(nums[i])
+            print("value after multipling",nums[i])
         result  =[]
+        print(nums)
         for i , n in enumerate(nums) :
-            print(i)
-            print(n)
+            print("index",i)
+            print("value at index",n)
             if n>0 :
                 result.append(i+1)
         return result
 s = Solution()
-num = [1,2,3,3]
+num = [3,3,2,1]
 print(s.findDisappearedNumbers(num))

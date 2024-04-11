@@ -16,3 +16,9 @@ class Solution:
 nums=[1,4,0,2,0,3]
 s = Solution()
 print(s.moveZeroes(nums))
+
+"""
+1,4,2,3,0,0
+          r
+        w 
+"""

@@ -14,6 +14,7 @@ class Solution:
         while len(lists) > 1:
             mergedLists = []
             for i in range(0, len(lists), 2):
+                #taking two steps so that merge will happend between 2 lists
                 l1 = lists[i]
                 l2 = lists[i + 1] if (i + 1) < len(lists) else None
                 mergedLists.append(self.mergeTwoLists(l1, l2))

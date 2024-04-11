@@ -25,3 +25,9 @@ class Solution:
         root.right = self.sortedListToBST(slow.next)
         root.left = self.sortedListToBST(head)
         return root
+    """
+    1,2,3 4,5,6
+        p s
+                f
+
+    """
