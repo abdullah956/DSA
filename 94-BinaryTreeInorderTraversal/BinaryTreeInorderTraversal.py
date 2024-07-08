@@ -28,3 +28,15 @@ class Solution:
             current_node = current_node.right
         
         return result  # Return the final inorder traversal result
+        # Recursive
+        res = []
+
+        def helper(root):
+            if not root:
+                return
+            helper(root.left)
+            res.append(root.val)
+            helper(root.right)
+
+        helper(root)
+        return res
